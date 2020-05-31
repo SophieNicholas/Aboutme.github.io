@@ -12,9 +12,9 @@
 
 @media only screen and (max-width: 600px) {
     body {
-      background-color: pink;
+        background-color: pink;
     }
-  }
+}
 
 h1 {
     text-align: center;
@@ -33,7 +33,7 @@ h1 {
 }
 
 .container col {
-    margin-left: 10px; 
+    margin-left: 10px;
 }
 
 .container {
@@ -44,9 +44,9 @@ h1 {
 }
 
 .row {
-   border-radius: 15px;
-   margin-left: 10px;
-   background-color: lightpink;
+    border-radius: 15px;
+    margin-left: 10px;
+    background-color: lightpink;
     color: #fff;
     border-radius: 5px;
     font-size: 100%;
@@ -57,7 +57,7 @@ h1 {
 }
 
 .personal:hover {
-background-color: darkgrey;
+    background-color: darkgrey;
 }
 
 .row ul li img {
@@ -65,4 +65,3 @@ background-color: darkgrey;
     max-height: 40px;
     max-width: 40px;
 }
-

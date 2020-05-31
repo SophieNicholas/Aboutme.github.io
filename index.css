@@ -17,6 +17,7 @@ h1 {
     margin-top: 10px;
     display: inline-block;
     margin-left: 37px;
+    color: white;
 }
 
 .nav a:hover {
@@ -26,7 +27,7 @@ h1 {
 
 .container {
     position: absolute;
-    margin-top: 0px;
+    margin-top: 50px;
     margin-left: 20px;
     margin-right: 20px;
     min-height: 95%;
@@ -39,7 +40,7 @@ h1 {
 #sticky-sidebar {
     position: fixed;
     left: 1000px;
-    background-color: darkgreen;
+    align-items: ;
 }
 
 .col-xs-4 {
@@ -51,15 +52,6 @@ h1 {
     margin-top: 20px;
 }
 
-.aboutme {
-    background-color: pink;
-    border-radius: 15px;
-    border: powderblue 15px;
-}
-
-.aboutme img {
-    float: right;
-}
 
 @media (max-width: 600px) {
     @media screen and (max-height: 450px) {
