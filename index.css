@@ -1,4 +1,3 @@
-
 .nav {
     width: 100%;
     background-color: blueviolet;
@@ -11,33 +10,59 @@
 }
 
 h1 {
-text-align: center;
+    text-align: center;
 }
 
 .nav li {
     margin-top: 10px;
     display: inline-block;
-    margin-left: 37px; 
- }
+    margin-left: 37px;
+}
 
-.nav a:hover{
+.nav a:hover {
     font-style: normal;
     color: cornsilk;
 }
 
 .container {
     position: absolute;
-    margin-top: 70px;
+    margin-top: 0px;
     margin-left: 20px;
     margin-right: 20px;
     min-height: 95%;
     min-width: 95%;
-   align-items: center;
-   border-radius: 15px;
-   background-color: lightpink;
+    align-items: center;
+    border-radius: 15px;
+    display: grid;
 }
 
-
-.row1 {
- 
+#sticky-sidebar {
+    position: fixed;
+    left: 1000px;
+    background-color: darkgreen;
 }
+
+.col-xs-4 {
+    border-radius: 15px;
+    padding: 20px;
+    background-color: darkgray;
+    font-size: 150%;
+    color: pink;
+    margin-top: 20px;
+}
+
+.aboutme {
+    background-color: pink;
+    border-radius: 15px;
+    border: powderblue 15px;
+}
+
+.aboutme img {
+    float: right;
+}
+
+@media (max-width: 600px) {
+    @media screen and (max-height: 450px) {
+        #sticky-sidebar {
+            display: none;
+        }
